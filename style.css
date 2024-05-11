@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url('bg.jpeg');
+  background-repeat: repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+.login-card {
+  width: 540px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+  background-color: #007bff;
+  color: #fff;
+  padding: 8px;
+  text-align: center;
+  border-radius: 10px 10px 0 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-header h2,
+.card-header img {
+  margin-bottom: 10px;
+}
+
+.card-header img {
+  width: 100px;
+  height: auto;
+}
+
+.form-container {
+  display: flex;
+  grid-template-columns: auto auto;
+  align-items: last baseline;
+  padding: 10px;
+}
+
+.form-container label {
+  margin-right: 0;
+  display: block;
+  margin-bottom: 8px;
+  width: 20%; 
+  font-size: medium;
+}
+
+
+.form-container input {
+  padding: 10px;
+  margin-bottom: 10px;
+  width: 64%;
+}
+
+.form-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+.form-footer button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.form-footer .remember-me {
+  margin-bottom: 5px;
+  display: flex;
+}
+
+.remember-me-label {
+  font-size: medium;
+}
+
+.form-footer button {
+  margin-top: 15px; 
+  background-color: #007bff;
+  color: #fff;
+  padding: 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 16%;
+}
+
+.form-footer a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.form-footer a:hover {
+  text-decoration: underline;
+}
+
+.input-container {
+  margin: 10px;
+}
+.input-container input {
+  width: 100%; 
+  padding: 14px; 
+  margin-bottom: 5px; 
+  display: block;
+}
+
+.input-container label {
+  display: block; 
+  margin-bottom: 5px; 
+  width: 20%;
+}
